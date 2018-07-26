@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en">
 <head>
-	<title><?php wp_title('•', true, 'right');
-bloginfo('name');?></title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+        <?php
+wp_title('•', true, 'right');
+bloginfo('name');
+?>
+    </title>
+	<meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
 	<?php wp_head();?>
 </head>
 
-<body <?php body_class();?>>
+<body <?php body_class(array('tcl-background'));?>>
 
 <!--[if lt IE 8]>
 <div class="alert alert-warning">
@@ -86,7 +91,7 @@ wp_nav_menu(array(
                                                         <div class="tcl-widget tcl-row__column tcl-cell col-xs-3"  style="">
                                                             <div class="tcl-widget tcl-image tcl-preset-default tcl-align-center tcl-align-left_mobile-h tcl-spacing-top-auto tcl-spacing-right-auto tcl-spacing-bottom-auto tcl-spacing-left-auto  ">
                                                                 <a class="tcl-image-link tcl-link" href="https://template66409.motopreview.com/">
-                <img data-src="/mt-demo/66400/66409/mt-content/uploads/2018/05/mt-1477-home-logo.png" class="tcl-image-picture ed" title="" alt="" src="./images/mt-1477-home-logo.png">
+                <img data-src="http://8mm.208.myftpupload.com/wp-content/uploads/2018/07/mt-1477-home-logo.png" class="tcl-image-picture ed" title="" alt="" src="http://8mm.208.myftpupload.com/wp-content/uploads/2018/07/mt-1477-home-logo.png">
             </a>
                                                             </div>
                                                         </div>

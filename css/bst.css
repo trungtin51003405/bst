@@ -4968,3 +4968,8 @@
 .row-fixed .container-fluid {
   max-width: 1200px;
 }
+
+.tcl-menu-list.tcl-menu-list_horizontal {
+  padding: 0;
+  margin: 0;
+}
